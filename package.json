@@ -1,0 +1,24 @@
+{
+  "name": "vcg",
+  "version": "1.0.0",
+  "description": "vc gamers test",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:runDefault": "cypress run --spec cypress/e2e/*.js",
+    "cypress:chrome": "cypress run --browser chrome --spec cypress/e2e/*.js"
+  },
+  "keywords": [
+    "vcg"
+  ],
+  "author": "aldiansyah noverio",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.6.0",
+    "cypress-xpath": "^2.0.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.5.0"
+  }
+}
