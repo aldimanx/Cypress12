@@ -20,5 +20,6 @@ npm run cypress:chrome
 npx cypress open
 ```
 
-**how to check report automation**
-go to report/mochawesome-report/index.html
+## how to check report automation
+
+report/mochawesome-report/index.html
