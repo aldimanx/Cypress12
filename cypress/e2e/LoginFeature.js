@@ -14,7 +14,7 @@ let password = "test123";
 
 describe("login feature", () => {
   beforeEach(() => {
-    cy.visit(url.appvcgamers);
+    cy.visit(url.homepage);
   });
 
   it("login with vaild account", () => {

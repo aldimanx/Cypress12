@@ -13,7 +13,7 @@ let password = "test123";
 
 describe("Add to cart feature", () => {
   beforeEach(() => {
-    cy.visit(url.appvcgamers);
+    cy.visit(url.homepage);
     cy.loginSVG(username, password);
   });
 
@@ -22,7 +22,7 @@ describe("Add to cart feature", () => {
 
     //weird url from main menu if select item from there
     cy.visit(
-      "https://app.vcgamers.com/dagangan/mobile-legends-257-diamonds-58000-vsgaming/94173"
+      "https://www.vcgamers.com/dagangan/mobile-legends-257-diamonds-58000-vsgaming/94173"
     );
     cy.url().then((url) => {
       let slicedText = url.split(".com")[1];

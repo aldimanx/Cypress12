@@ -20,6 +20,7 @@ module.exports = defineConfig({
     requestTimeout: 600000,
     responseTimeout: 600000,
     defaultCommandTimeout: 15000,
+    screenshot: false,
     hideXHRInCommandLog: true,
     // You may want to clean this up later by importing these.
     setupNodeEvents(on, config) {

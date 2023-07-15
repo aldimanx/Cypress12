@@ -14,7 +14,7 @@ let metode = "BCA Virtual Account";
 
 describe("checkout feature", () => {
   beforeEach(() => {
-    cy.visit(url.appvcgamers);
+    cy.visit(url.homepage);
     cy.loginSVG(username, password);
   });
 

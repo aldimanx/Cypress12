@@ -9,7 +9,7 @@ let items = ["free fire", "steam", "mobile legend"];
 
 describe("Search feature", () => {
   beforeEach(() => {
-    cy.visit(url.appvcgamers);
+    cy.visit(url.homepage);
   });
 
   it("Search some items", () => {
